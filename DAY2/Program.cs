@@ -64,11 +64,21 @@ namespace DAY2
 
 
             Test obj = new Test();
-           
-          
-
             obj.DoSmething();
+            int no= obj.GetANum();         
+            Console.WriteLine(no);
 
+            
+            obj.Add(10,5);
+
+            Console.WriteLine("Enter your nums");
+            int   a = Convert.ToInt32(Console.ReadLine());
+            int   b = Convert.ToInt32(Console.ReadLine());
+            
+            
+            int sub = obj.Sub(a, b);
+
+            Console.WriteLine(sub);
             Console.ReadKey();
         }
     }
