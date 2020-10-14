@@ -9,7 +9,7 @@ namespace DAY2
        {
             //int a, b, ans;
 
-            //Console.WriteLine("\t\t\tCalculator");
+            //Console.WriteLine("\t\t\CALCULATOR");
             //Console.WriteLine("\t\t\t----------");
             //Console.WriteLine("(1)SUM       (2)Product");
             //Console.WriteLine("(3)Division       (4)Subtraction");
