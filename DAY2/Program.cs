@@ -5,7 +5,8 @@ namespace DAY2
     class Program
     {
         static void Main(string[] args)
-        {
+        
+       {
             //int a, b, ans;
 
             //Console.WriteLine("\t\t\tCalculator");
@@ -73,6 +74,7 @@ namespace DAY2
 
             Console.WriteLine("Enter your nums");
             int   a = Convert.ToInt32(Console.ReadLine());
+
             int   b = Convert.ToInt32(Console.ReadLine());
             
             
