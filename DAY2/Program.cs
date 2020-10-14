@@ -5,7 +5,8 @@ namespace DAY2
     class Program
     {
         static void Main(string[] args)
-        {
+        
+       {
             //int a, b, ans;
 
             //Console.WriteLine("\t\t\tCalculator");
