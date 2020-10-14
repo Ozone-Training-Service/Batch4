@@ -73,6 +73,7 @@ namespace DAY2
 
             Console.WriteLine("Enter your nums");
             int   a = Convert.ToInt32(Console.ReadLine());
+
             int   b = Convert.ToInt32(Console.ReadLine());
             
             
