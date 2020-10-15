@@ -5,15 +5,16 @@ namespace DAY2
     class Program
     {
         static void Main(string[] args)
-        {
+        
+       {
             //int a, b, ans;
 
-            //Console.WriteLine("\t\t\tCalculator");
+            //Console.WriteLine("\t\t\CALCULATOR");
             //Console.WriteLine("\t\t\t----------");
             //Console.WriteLine("(1)SUM       (2)Product");
             //Console.WriteLine("(3)Division       (4)Subtraction");
 
-            //Console.WriteLine("Enter your choice?");
+            //Console.WriteLine("Enter your choice??");
 
 
 
@@ -73,6 +74,7 @@ namespace DAY2
 
             Console.WriteLine("Enter your nums");
             int   a = Convert.ToInt32(Console.ReadLine());
+
             int   b = Convert.ToInt32(Console.ReadLine());
             
             
