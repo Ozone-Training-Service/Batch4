@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calc", "Calc\Calc.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAY2", "DAY2\DAY2.csproj", "{0145FC29-7408-4738-82CF-315DBD3DB4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First", "First\First.csproj", "{4D137B59-C522-4D03-91FC-147CDDF6D0A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First", "First\First.csproj", "{4D137B59-C522-4D03-91FC-147CDDF6D0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMangementSystem", "StudentMangementSystem\StudentMangementSystem.csproj", "{96DF26D9-D3C7-4A73-A994-37311EDFCD73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4D137B59-C522-4D03-91FC-147CDDF6D0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D137B59-C522-4D03-91FC-147CDDF6D0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D137B59-C522-4D03-91FC-147CDDF6D0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DF26D9-D3C7-4A73-A994-37311EDFCD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DF26D9-D3C7-4A73-A994-37311EDFCD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DF26D9-D3C7-4A73-A994-37311EDFCD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DF26D9-D3C7-4A73-A994-37311EDFCD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
