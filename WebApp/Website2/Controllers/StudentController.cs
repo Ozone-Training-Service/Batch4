@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Website2.Helpers;
 
 namespace Website2.Controllers
 {
@@ -25,10 +26,15 @@ namespace Website2.Controllers
         [HttpGet]
         public IActionResult addStudent(string n1, string address)
         {
-            // to file
-            // db code
 
-            // mail
+
+            Report obj = new Report();
+            obj.createReport(n1,address);
+
+            
+           
+
+            
 
 
             ViewBag.Name = n1;
