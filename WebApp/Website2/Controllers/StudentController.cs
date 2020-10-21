@@ -8,6 +8,8 @@ namespace Website2.Controllers
 {
     public class StudentController : Controller
     {
+
+        //
         public IActionResult Index()
         {
 
@@ -16,6 +18,20 @@ namespace Website2.Controllers
 
 
             ViewBag.Email = "vishnu@gmail.com";
+            return View();
+        }
+
+
+        [HttpGet]
+        public IActionResult addStudent(string n1, string address)
+        {
+            // to file
+            // db code
+
+            // mail
+
+
+            ViewBag.Name = n1;
             return View();
         }
 
