@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Website2.Helpers;
+using Website2.Models;
 
 namespace Website2.Controllers
 {
@@ -46,6 +47,16 @@ namespace Website2.Controllers
             return View();
         }
 
+        //
+
+
+       [HttpPost]
+        public IActionResult addStudent2(Student student)
+        {
+
+
+            return View();
+        }
         public IActionResult List()
         {
             return View();
